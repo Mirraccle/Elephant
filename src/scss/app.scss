@@ -1,0 +1,23 @@
+/* By Athlon Front-End Team */
+
+/* Core variables */
+@import 'base/vars';
+
+/* CSS Reset */
+@import 'base/reset';
+
+/* Fonts */
+@import 'base/fonts';
+
+/* libs */
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~animate.css";
+
+/* partials */
+
+@import 'partials/header.scss';
+@import 'partials/main-slider.scss';
+
+html, body{
+    height: 100%;
+}
